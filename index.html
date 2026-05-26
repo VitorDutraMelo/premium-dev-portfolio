@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en-GB" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vitor Dev — Backend Developer | Websites That Convert</title>
+  <meta name="description" content="Vitor Dev — Backend developer building premium websites that explain your offer, build trust and turn visitors into customers." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="src/image/ChatGPT Image 26 de mai. de 2026, 23_08_27.png" />
+  <link rel="stylesheet" href="src/css/style.css"/>
+  <script>try{var t=localStorage.getItem('vd-theme')||'dark';document.documentElement.setAttribute('data-theme',t);}catch(e){}</script>
+</head>
+<body>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header" id="siteHeader">
+    <div class="header-inner">
+      <a href="#top" class="brand">
+        <span class="brand-name">VITOR DEV</span>
+        <span class="brand-divider">|</span>
+        <span class="brand-role">BACKEND DEVELOPER</span>
+      </a>
+
+      <div class="header-right">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          <span class="th-icon th-sun" aria-hidden="true">☀</span>
+          <span class="th-icon th-moon" aria-hidden="true">☾</span>
+          <span class="th-knob"></span>
+        </button>
+        <span class="neon-dot" aria-hidden="true"></span>
+        <button class="menu-btn" id="menuOpen" aria-label="Open menu">
+          <span class="menu-icon">
+            <span></span><span></span>
+          </span>
+          <span class="menu-label">MENU</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ FULLSCREEN MENU OVERLAY ============ -->
+  <nav class="menu-overlay" id="menuOverlay" aria-hidden="true">
+    <div class="menu-top">
+      <a href="#top" class="brand" data-close>
+        <span class="brand-name">VITOR DEV</span>
+        <span class="brand-divider">|</span>
+        <span class="brand-role">BACKEND DEVELOPER</span>
+      </a>
+      <div class="header-right">
+        <span class="neon-dot"></span>
+        <button class="menu-btn" id="menuClose" aria-label="Close menu">
+          <span class="close-icon">×</span>
+          <span class="menu-label">MENU</span>
+        </button>
+      </div>
+    </div>
+
+    <ul class="menu-list">
+      <li><a href="#about" data-close><span>ABOUT</span><em>01</em></a></li>
+      <li><a href="#services" data-close><span>SERVICES</span><em>02</em></a></li>
+      <li><a href="#portfolio" data-close><span>PORTFOLIO</span><em>03</em></a></li>
+      <li><a href="#process" data-close><span>PROCESS</span><em>04</em></a></li>
+      <li class="active"><a href="#contact" data-close><span>CONTACT</span><em>05</em></a></li>
+    </ul>
+
+    <div class="menu-foot">
+      <div class="menu-foot-info">
+        <span>+44 7785 3141 95</span>
+        <span>@vitordev.co.uk</span>
+      </div>
+      <a href="#contact" class="cta-pill" data-close>
+        <span class="dot"></span> REQUEST A QUOTE NOW
+      </a>
+    </div>
+  </nav>
+
+  <main id="top">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <h1 class="hero-title reveal">
+            <span class="line filled">YOUR BUSINESS</span>
+            <span class="line outline">NEEDS A WEBSITE</span>
+            <span class="line outline">THAT</span>
+            <span class="line neon">CONVERTS.</span>
+          </h1>
+
+          <p class="hero-sub reveal">
+            A social media profile helps, but it does not replace your own digital presence.
+            <strong>I build websites that explain your offer, build trust and take the customer to the quote.</strong>
+          </p>
+
+          <div class="hero-ctas reveal">
+            <a href="#contact" class="btn btn-neon">
+              <span class="wa">✆</span>
+              <span>GET MY PROFESSIONAL WEBSITE</span>
+            </a>
+            <a href="#portfolio" class="btn btn-ghost">
+              <span>SEE DELIVERED WEBSITES</span>
+              <span class="arrow">→</span>
+            </a>
+          </div>
+        </div>
+
+        <aside class="hero-photo reveal" aria-label="Profile photo">
+          <div class="photo-blur" aria-hidden="true"></div>
+          <div class="photo-frame">
+            <img src="src/image/1777377406987.jfif" alt="Vitor Dev — Backend Developer" />
+            <span class="badge badge-role">
+              <span class="badge-dot"></span> Backend Developer
+            </span>
+            <span class="badge badge-loc">
+              <span class="badge-pin">◉</span> Based in London
+            </span>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ============ NEON STRIP ============ -->
+    <div class="neon-strip" aria-hidden="false">
+      <div class="strip-track">
+        <span>MORE ENQUIRIES</span><i>✦</i>
+        <span>MORE SALES</span><i>✦</i>
+        <span>MORE TRUST</span><i>✦</i>
+        <span>MORE ENQUIRIES</span><i>✦</i>
+        <span>MORE SALES</span><i>✦</i>
+        <span>MORE TRUST</span><i>✦</i>
+      </div>
+    </div>
+
+    <!-- ============ PROBLEM SECTION ============ -->
+    <section class="section problem" id="about">
+      <p class="eyebrow reveal">BEFORE REQUESTING A QUOTE, UNDERSTAND THE PROBLEM</p>
+      <h2 class="section-title reveal">
+        WITHOUT A GOOD WEBSITE,<br>
+        YOU LOSE CLIENTS BEFORE<br>
+        THE FIRST CONVERSATION.
+      </h2>
+
+      <div class="cards-grid">
+        <article class="card reveal">
+          <span class="card-num">01</span>
+          <h3>Your client does not understand your offer</h3>
+          <p>Confused messaging on social media leads to silence. A focused website explains exactly what you do and who it is for.</p>
+        </article>
+        <article class="card reveal">
+          <span class="card-num">02</span>
+          <h3>Your business looks less professional</h3>
+          <p>A custom site signals investment, authority and care. Without one, prospects assume the opposite.</p>
+        </article>
+        <article class="card reveal">
+          <span class="card-num">03</span>
+          <h3>You depend only on social media</h3>
+          <p>Algorithms change overnight. Your website is the only digital asset you truly own and control.</p>
+        </article>
+      </div>
+
+      <div class="quote-block reveal">
+        <p>“The best decision a business owner can make today is to <span class="hl">stop renting attention</span> and start owning the conversation that closes the deal.”</p>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES SECTION ============ -->
+    <section class="section services" id="services">
+      <p class="eyebrow reveal">WHAT I BUILD</p>
+      <h2 class="section-title reveal">SERVICES <span class="hl">.</span></h2>
+
+      <div class="service-list">
+
+        <article class="service reveal">
+          <div class="service-text">
+            <h3>INSTITUTIONAL <br>WEBSITES</h3>
+            <p>Premium presentation sites that communicate authority, credibility and your full offer with clarity.</p>
+            <a href="#contact" class="link-arrow">REQUEST A QUOTE <span>→</span></a>
+          </div>
+          <div class="mockup mockup-browser">
+            <div class="mock-bar"><i></i><i></i><i></i></div>
+            <div class="mock-body">
+              <div class="mock-hero"></div>
+              <div class="mock-row"></div>
+              <div class="mock-row short"></div>
+            </div>
+          </div>
+        </article>
+
+        <article class="service reveal">
+          <div class="service-text">
+            <h3>LANDING <br>PAGES</h3>
+            <p>Single-page experiences engineered for one goal: turning paid traffic into qualified leads.</p>
+            <a href="#contact" class="link-arrow">REQUEST A QUOTE <span>→</span></a>
+          </div>
+          <div class="mockup mockup-landing">
+            <div class="mock-bar"><i></i><i></i><i></i></div>
+            <div class="mock-body">
+              <div class="mock-headline"></div>
+              <div class="mock-cta"></div>
+            </div>
+          </div>
+        </article>
+
+        <article class="service reveal">
+          <div class="service-text">
+            <h3>ONLINE <br>STORES</h3>
+            <p>Fast, secure e-commerce builds with smooth checkout flows and clean product architecture.</p>
+            <a href="#contact" class="link-arrow">REQUEST A QUOTE <span>→</span></a>
+          </div>
+          <div class="mockup mockup-store">
+            <div class="mock-bar"><i></i><i></i><i></i></div>
+            <div class="mock-body grid-3">
+              <div></div><div></div><div></div>
+              <div></div><div></div><div></div>
+            </div>
+          </div>
+        </article>
+
+        <article class="service reveal">
+          <div class="service-text">
+            <h3>MOBILE-FIRST <br>WEBSITES</h3>
+            <p>Designed for the screen where 80% of your customers actually meet your brand for the first time.</p>
+            <a href="#contact" class="link-arrow">REQUEST A QUOTE <span>→</span></a>
+          </div>
+          <div class="mockup mockup-mobile">
+            <div class="phone">
+              <div class="phone-notch"></div>
+              <div class="phone-screen">
+                <div class="ps-bar"></div>
+                <div class="ps-block"></div>
+                <div class="ps-block short"></div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="service reveal">
+          <div class="service-text">
+            <h3>UI / UX <br>DESIGN</h3>
+            <p>Interfaces that feel premium, look distinctive and guide visitors towards the action that matters.</p>
+            <a href="#contact" class="link-arrow">REQUEST A QUOTE <span>→</span></a>
+          </div>
+          <div class="mockup mockup-ui">
+            <div class="ui-shapes">
+              <span class="sh sh-1"></span>
+              <span class="sh sh-2"></span>
+              <span class="sh sh-3"></span>
+              <span class="sh sh-4"></span>
+            </div>
+          </div>
+        </article>
+
+        <article class="service reveal">
+          <div class="service-text">
+            <h3>SUPPORT & <br>MAINTENANCE</h3>
+            <p>Ongoing care: updates, performance, security and small evolutions so your site keeps converting.</p>
+            <a href="#contact" class="link-arrow">REQUEST A QUOTE <span>→</span></a>
+          </div>
+          <div class="mockup mockup-support">
+            <div class="pulse"></div>
+            <div class="pulse delay"></div>
+            <span class="dot-core"></span>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ============ STATS ============ -->
+    <section class="section stats" id="portfolio">
+      <p class="eyebrow reveal">NUMBERS THAT SPEAK</p>
+
+      <div class="stat reveal"><span class="num">50+</span><span class="lbl">Projects delivered</span></div>
+      <div class="stat reveal"><span class="num">50+</span><span class="lbl">Pages created</span></div>
+      <div class="stat reveal"><span class="num">94%</span><span class="lbl">Client satisfaction</span></div>
+      <div class="stat reveal"><span class="num">5+</span><span class="lbl">Business categories</span></div>
+      <div class="stat reveal"><span class="num">23/7</span><span class="lbl">Online presence</span></div>
+
+      <p class="stats-foot reveal">
+        Every client without a strong website is a client who can <span class="hl">choose another company</span>.
+      </p>
+    </section>
+
+    <!-- ============ PROCESS ============ -->
+    <section class="section process" id="process">
+      <p class="eyebrow reveal">HOW WE WORK</p>
+      <h2 class="section-title reveal">PROCESS <span class="hl">.</span></h2>
+
+      <div class="steps">
+        <div class="step reveal"><span class="step-num">01</span><div><h3>STRATEGY</h3><p>We map your offer, your audience and the objection your website must answer first.</p></div></div>
+        <div class="step reveal"><span class="step-num">02</span><div><h3>DESIGN</h3><p>A premium visual direction tailored to your brand — clean, bold, conversion-led.</p></div></div>
+        <div class="step reveal"><span class="step-num">03</span><div><h3>DEVELOPMENT</h3><p>Hand-crafted, fast and accessible code. Built to scale and easy to maintain.</p></div></div>
+        <div class="step reveal"><span class="step-num">04</span><div><h3>DELIVERY</h3><p>Launch, training and ongoing support so your new asset starts producing results.</p></div></div>
+      </div>
+    </section>
+
+    <!-- ============ TESTIMONIALS ============ -->
+    <section class="section testimonials">
+      <p class="eyebrow reveal">WHO INVESTS IN PRESENCE FEELS THE DIFFERENCE</p>
+      <h2 class="section-title reveal">TESTIMONIALS <span class="hl">.</span></h2>
+
+      <div class="cards-grid">
+        <article class="card testimonial reveal">
+          <p>“We doubled our enquiries in the first month. The website finally explains what we do — clients arrive ready to buy.”</p>
+          <footer><strong>Olivia Hart</strong><span>Founder, Northline Studio</span></footer>
+        </article>
+        <article class="card testimonial reveal">
+          <p>“Fast, premium and beautifully built. Vitor understood the brand better than agencies we paid five times more.”</p>
+          <footer><strong>James Whitfield</strong><span>Director, Whitfield & Co.</span></footer>
+        </article>
+        <article class="card testimonial reveal">
+          <p>“Conversion went from a hope to a metric. Our cost-per-lead dropped 38% after the new site went live.”</p>
+          <footer><strong>Amara Singh</strong><span>CMO, Foundry Goods</span></footer>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ FINAL CTA ============ -->
+    <section class="section final-cta" id="contact">
+      <h2 class="section-title huge reveal">
+        <span class="line filled">YOUR CLIENT</span>
+        <span class="line outline">IS SEARCHING</span>
+        <span class="line neon">NOW.</span>
+      </h2>
+      <p class="hero-sub reveal">Make sure they find you, trust you and contact you.</p>
+      <a href="#" class="btn btn-neon big reveal">
+        <span class="wa">✆</span>
+        <span>REQUEST A QUOTE NOW</span>
+      </a>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="footer-top">
+      <div>
+        <p class="brand">
+          <span class="brand-name">VITOR DEV</span>
+          <span class="brand-divider">|</span>
+          <span class="brand-role">BACKEND DEVELOPER</span>
+        </p>
+        <p class="footer-tagline">Websites engineered to convert. Built in British English, shipped worldwide.</p>
+      </div>
+      <ul class="footer-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#process">Process</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> Vitor Dev. All rights reserved.</span>
+      <span>Crafted with code, coffee and intent.</span>
+    </div>
+  </footer>
+
+  <!-- Floating mobile CTA -->
+  <a href="#contact" class="floating-cta">
+    <span class="dot"></span> REQUEST A QUOTE NOW
+  </a>
+
+  <script src="src/js/script.js"></script>
+</body>
+</html>
